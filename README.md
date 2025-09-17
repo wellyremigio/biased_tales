@@ -1,6 +1,7 @@
 # Biased Tales 
 
-Welcome to the repository for the **Biased Tales** dataset and annotation guidelines. The dataset also available on Hugging Face:  
+Welcome to the repository for the **Biased Tales** dataset and annotation guidelines. The dataset is also available on Hugging Face:  
+
 👉 [Donya/biased_tales](https://huggingface.co/datasets/Donya/biased_tales)
 
 ## 📂 Dataset Overview
@@ -20,7 +21,7 @@ Each record corresponds to a single story and its metadata.
 | `readability_fkg`      | float       | Flesch–Kincaid Grade Level.                                                        |
 | `readability_cli`      | float       | Coleman–Liau Index.                                                                |
 | `readability_ari`      | float       | Automated Readability Index.                                                       |
-| `aoa`                  | float/int   | Approx. age of acquisition / target age.                                           |
+| `aoa`                  | float/int   | Approx. age of acquisition/target age.                                           |
 | `role`                 | string      | Role of parent if included in the prompt.                                          |
 | `ethnicity`            | string      | Ethnicity of the child if included in the prompt.                                  |
 | `gender`               | string      | Gender of the child if included in the prompt.                                     |
@@ -44,11 +45,11 @@ Each record corresponds to a single story and its metadata.
 If you use Biased Tales, please cite:
 
 ```
-@inproceedings{{biased_tales_2025,
-  title  = {Biased Tales: Cultural and Topic Bias in Generating Children's Stories},
-  author = {Donya Rooein, Vilém Zouhar, Debora Nozza, Dirk Hovy},
-  year   = {2025},
-  url    = {COMING SOON}
+@article{rooein2025biased,
+  title={Biased Tales: Cultural and Topic Bias in Generating Children's Stories},
+  author={Rooein, Donya and Zouhar, Vil{\'e}m and Nozza, Debora and Hovy, Dirk},
+  journal={arXiv preprint arXiv:2509.07908},
+  year={2025}
 }
 ```
 
